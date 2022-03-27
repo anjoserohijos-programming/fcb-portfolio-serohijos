@@ -1,0 +1,65 @@
+*{
+  font-family: "Roboto", sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+h1, h2{
+  font-family: "Montserrat", sans-serif;
+}
+body{
+  background-image: url("https://wallpaperaccess.com/full/3173418.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+#profile-image{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border-style: solid;
+  box-shadow: 6px 6px 10px #000000;
+}
+.title-shade{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: linear-gradient(180deg, rgba(2,0,36,1) 35%, rgba(2,0,27,1) 42%, rgba(2,0,20,1) 51%, rgba(2,0,24,1) 51%, rgba(0,0,0,0.37298669467787116) 85%, rgba(0,0,0,0) 100%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#landing{
+  box-shadow: 5px 5px 16px black;
+  background-image: url("https://images.unsplash.com/photo-1504892612018-159ffa1d147f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-position: center;
+  background-size: cover;
+  margin: 20px ;
+  padding-bottom: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#gallery{
+  height:140vh;
+  display: flex;
+    margin: 20px ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.59);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-color: black;
+  box-shadow: 6px 6px 10px #000000;
+}
+.card{
+  width: 30vh;
+  margin: 20px;
+  transition: 2s;
+  background-color:#2b4259;
+  color: white;
+}
+.card:hover{
+  margin: 20px;
+  transform: scale(1.22, 1.25);
+  transition: .2s;
+}
