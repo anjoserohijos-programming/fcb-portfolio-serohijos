@@ -39,7 +39,7 @@ body{
   border-top-left-radius: 20px;
 }
 #gallery{
-  height:140vh;
+  height:160vh;
   display: flex;
     margin: 20px ;
   flex-direction: column;
